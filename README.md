@@ -9,7 +9,7 @@
 3. Add data for both routes
 4. Update data
 5. Delete data
-6. 
+ 
 #### From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
 
 * [PullRequest](https://github.com/Sukina12/basic-api-server/pull/1)
