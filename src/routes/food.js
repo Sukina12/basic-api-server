@@ -31,7 +31,8 @@ function readSpecificFood (req,res){
 
 function updateFood (req,res){
   let id = req.params.id;
-  let resObj = food.delete (id);
+  let foodObj = req.body;
+  let resObj = food.update (id,foodObj);
   res.json(resObj);
 }
 
